@@ -4,4 +4,4 @@
 
 node index.js --action="list"
 
-![Image alt](https://github.com/Akirget/goit-node-hw-01/raw/main/1.png)
+<img src='https://monosnap.com/file/ownBlYStThYZvltVseZJkFRBVZezsB'>
