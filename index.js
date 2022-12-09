@@ -1,1 +1,1 @@
-
+const contacts = require('./contacts');
