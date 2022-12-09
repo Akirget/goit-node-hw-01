@@ -23,21 +23,21 @@ async function invokeAction({ action, id, name, email, phone }) {
     }
 
     case 'get': {
-      const contacts = await Contacts.getContactById();
+      const contacts = await Contacts.getContactById(id);
 
       console.table(contacts);
       break;
     }
 
     case 'add': {
-      const contacts = await Contacts.addContact;
+      const contacts = await Contacts.addContact(name, email, phone);
 
       console.table(contacts);
       break;
     }
 
     case 'remove': {
-      const contacts = await Contacts.removeContact();
+      const contacts = await Contacts.removeContact(id);
 
       console.table(contacts);
       break;
@@ -49,5 +49,3 @@ async function invokeAction({ action, id, name, email, phone }) {
 }
 
 invokeAction(argv);
-
-invokeAction({ action: 'list' });

@@ -57,8 +57,8 @@ async function addContact(name, email, phone) {
     const contacts = await listContacts();
     const newContact = { name, email, phone, id: uuid() };
     contacts.push(newContact);
+    updateFile();
     return newContact;
-    removeContact(3);
   } catch (error) {
     console.log(error.message);
     return error;
