@@ -2,4 +2,4 @@
 
 # Отримуємо і виводимо весь список контактів у вигляді таблиці (console.table)
 
-<img src="https://ibb.co/M2RKrHk" alt="1">
+![1](https://ibb.co/M2RKrHk)
