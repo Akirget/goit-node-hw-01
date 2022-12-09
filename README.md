@@ -17,7 +17,7 @@ node index.js --action="get" --id=5
 node index.js --action="add" --name="Mango"--email="mango@gmail.com"
 --phone="322-22-22"
 
-![3](https://i.ibb.co/CJHktwJ/3.png)
+![3](https://i.ibb.co/y8gyTcw/3.png)
 
 # Видаляємо контакт
 
